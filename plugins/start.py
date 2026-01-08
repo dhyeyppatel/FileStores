@@ -1,4 +1,4 @@
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @CodeFlix_Bots, @dhyeye
 # Ask Doubt on telegram @CodeflixSupport
 #
 # Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
@@ -190,7 +190,7 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟs •", url="https://t.me/Movies8777")],
+                    [InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟs •", url="https://t.me/commonthread")],
 
     [
                     InlineKeyboardButton("• ᴀʙᴏᴜᴛ", callback_data = "about"),
@@ -216,7 +216,7 @@ async def start_command(client: Client, message: Message):
 
 
 #=====================================================================================##
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @CodeFlix_Bots, @dhyeye
 # Ask Doubt on telegram @CodeflixSupport
 
 
@@ -274,7 +274,7 @@ async def not_joined(client: Client, message: Message):
                 except Exception as e:
                     print(f"Error with chat {chat_id}: {e}")
                     return await temp.edit(
-                        f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @rohit_1888</i></b>\n"
+                        f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @dhyeye</i></b>\n"
                         f"<blockquote expandable><b>Rᴇᴀsᴏɴ:</b> {e}</blockquote>"
                     )
 
@@ -304,7 +304,7 @@ async def not_joined(client: Client, message: Message):
     except Exception as e:
         print(f"Final Error: {e}")
         await temp.edit(
-            f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @rohit_1888</i></b>\n"
+            f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @dhyeye</i></b>\n"
             f"<blockquote expandable><b>Rᴇᴀsᴏɴ:</b> {e}</blockquote>"
         )
 
@@ -334,10 +334,10 @@ async def add_premium_user_command(client, msg):
             "d - days\n"
             "y - years\n\n"
             "Examples:\n"
-            "/addpremium 123456789 30 m → 30 minutes\n"
-            "/addpremium 123456789 2 h → 2 hours\n"
-            "/addpremium 123456789 1 d → 1 day\n"
-            "/addpremium 123456789 1 y → 1 year"
+            "/addpremium 1123135015 30 m → 30 minutes\n"
+            "/addpremium 1123135015 2 h → 2 hours\n"
+            "/addpremium 1123135015 1 d → 1 day\n"
+            "/addpremium 1123135015 1 y → 1 year"
         )
         return
 
